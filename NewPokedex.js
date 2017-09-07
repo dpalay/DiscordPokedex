@@ -259,8 +259,8 @@ let pokemon = {
     142: undefined,
     143: undefined,
     144: new Pokemon(144, 0x509fd8, "Flying / Ice", 5, "Omastar - Rock Throw / Rock Slide or Rock Blast", "Rock (x2), Electric, Fire, Steel", "Ground (x2), Bug, Grass", "**A** - Frost Breath / Blizzard\n**A** - Frost Breath / Ice Beam\n**C** - Frost Breath / Icy Wind", 1676),
-    145: undefined,
-    146: undefined,
+    145: new Pokemon(145, 0xfff600, "Flying / Electric", 5, "Golem - Rock Throw / Stone Edge\nGolem - Rock Throw / Rock Blast", "Rock, Ice", "Bug, Grass, Flying, Ground, Steel, Fight", "**A** - Charge Beam / Thunderbolt\n**A-** - Charge Beam / Zap Cannon\n**B** - Charge Beam / Thunder", 1902),
+    145: new Pokemon(146, 0xff7b00, "Flying / Fire", 5, "Golem - Rock Throw / Stone Edge\nGolem - Rock Throw / Rock Blast\nOmastar - (Rock Throw or Water Gun) / (Rock Slide, Rock Blast, or Hydro Pump)", "Electric, Rock (x2), Water", "Bug (x2), Fire, Grass (x2), Fairy, Ground, Steel, Fight", "**A** - Fire Spin / Overheat\n**B** - Fire Spin / Fire Blast\n**C** - Fire Spin / Heat Wave", 1870),
     147: undefined,
     148: undefined,
     149: undefined,
@@ -357,7 +357,7 @@ let pokemon = {
     240: undefined,
     241: undefined,
     242: undefined,
-    243: undefined,
+    243: new Pokemon(243, 0xF5CC54, "Electric", 5, "Golem - (Mud Slap, Mud Shot, Rock Throw) / Earthquake\nRhydon - Mud Slap / Earthquake", "Ground", "Electric, Flying, Steel", "**A** - Thunder Shock / Wild Charge\n**A** - Volt Switch / Wild Charge\n**A-** - Thunder Shock / Thunderbolt\n**A-** - Volt Switch / Thunderbolt\n**B** - Thunder Shock / Thunder\n**B** - Volt Switch / Thunder", 1913),
     244: undefined,
     245: undefined,
     246: undefined,
@@ -942,46 +942,6 @@ client.on('message', message => {
                 message.author.createDM().then((dm) => { dm.send("Sorry, I couldn't understand your message.\n" + message.content) }).catch(console.error)
             }
         }
-    }
-
-
-
-
-    // Zapdos #145
-    else if (message.content.toLowerCase() === '?zapdos' || message.content.toLowerCase() === "?145") {
-        const embed = new Discord.RichEmbed()
-            .setAuthor("#145 Zapdos", "https:\/\/raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/145.png")
-            .setColor(0xfff600)
-            .setThumbnail("https:\/\/raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/145.png")
-            .setDescription("**Type:** Flying / Electric\nRaid Level 5")
-            .addField("Best Counters:",
-                "Golem - Rock Throw / Stone Edge\nGolem - Rock Throw / Rock Blast")
-            .addField("Good Counters:",
-                "Tyranitar - Bite / Stone Edge\nPiloswine - Ice Shard / Avalanche\nPiloswine - Powder Snow / Avalanche\nDragonite - Dragon Breath / Dragon Claw\nDragonite - Dragon Tail / Outrage")
-            .addField("Moveset Grades:",
-                "**A** - Charge Beam / Thunderbolt\n**A-** - Charge Beam / Zap Cannon\n**B** - Charge Beam / Thunder")
-            .addField("Perfect Catchable CP: 1902",
-                "[More Info](https:\/\/pokemongo.gamepress.gg/pokemon/145)")
-        message.reply({ embed });
-    }
-
-
-    // Moltres #146
-    else if (message.content.toLowerCase() === '?Moltres' || message.content.toLowerCase() === "?146") {
-        const embed = new Discord.RichEmbed()
-            .setAuthor("#146 Moltres", "https:\/\/raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/146.png")
-            .setColor(0xff7b00)
-            .setThumbnail("https:\/\/raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/146.png")
-            .setDescription("**Type:** Flying / Fire\nRiad Level 5")
-            .addField("Best Counters:",
-                "Golem - Rock Throw / Stone Edge\nGolem - Rock Throw / Rock Blast\nOmastar - ")
-            .addField("Good Counters:",
-                "Tyranitar - Bite / Stone Edge\nPiloswine - Ice Shard / Avalanche\nPiloswine Powder Snow / Avalanche\nDragonite - Dragon Breath / Dragon Claw\nDragonite - Dragon Tail / Outrage")
-            .addField("Moveset Grades:",
-                "**A** - Charge Beam / Thunderbolt\n**A-** - Charge Beam / Zap Cannon\n**B** Charge Beam / Thunder")
-            .addField("Perfect Catchable CP: 1902",
-                "[More Info](https:\/\/pokemongo.gamepress.gg/pokemon/145)")
-        message.reply({ embed });
     }
 });
 
