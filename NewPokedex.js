@@ -76,7 +76,7 @@ class PokeType {
 class Pokemon {
     constructor(pokeID, color, types, raidLevel, topCounters, weakTo, resistantTo, moveSetGrades, highestCP) {
         this.emb = new Discord.RichEmbed()
-            .setAuthor(`#${pokeID} ${names[pokeID]}`, `https:\/\/raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/${pokeID}.png`)
+            .setAuthor(`#${pokeID} ${names[pokeID-1]}`, `https:\/\/raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/${pokeID}.png`)
             .setColor(color)
             .setThumbnail(`https:\/\/raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/${pokeID}.png`)
         if (raidLevel > 0) {
