@@ -264,7 +264,7 @@ let pokemon = {
     147: undefined,
     148: undefined,
     149: undefined,
-    150: undefined,
+    150: new Pokemon(150, 0xDAD2E0, 'Psychic', 5, "Mewtwo - (Confusion or Psycho Cut) / Shadow Ball\nTyranitar - Bite / (Crunch or Stone Edge)\nLugia - (Extrasensory or Dragon Tail) / Sky Attack", "Bug, Dark, Ghost", "Fight, Psychic", "**A** - Confusion / Shadow Ball\n**A** - Psycho Cut / Shadow Ball\n**B** - Confusion / Focus Blast\n**B** - Psycho Cut / Focus Blast\n**C** - Psycho Cut / Psychic\n**C** - Confusion / Psychic\n**F** - Psycho Cut / Hyper Beam\n**F** - Confusion / Hyper Beam", 2275),
     151: undefined,
     152: undefined,
     153: undefined,
