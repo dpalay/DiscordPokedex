@@ -29,8 +29,8 @@ Gui, Add, Edit, x52 y50 w70 h20 vPcolor gUpdateGui, 000000
 Gui, Add, Text, x2 y90 w80 h50 , Type1`n`nType2
 Gui, Add, DropDownList, x42 y90 w100 h20 vType1  R18 gUpdateGui, Bug|Electric|Fire|Grass|Normal|Dark|Fairy|Flying|Ground|Poison|Dragon|Fight|Ghost|Ice|Psychic|Rock|Steel|Water
 Gui, Add, DropDownList, x42 y120 w100 h20 vType2 R19  gUpdateGui, |Bug|Electric|Fire|Grass|Normal|Dark|Fairy|Flying|Ground|Poison|Dragon|Fight|Ghost|Ice|Psychic|Rock|Steel|Water
-Gui, Add, Text, x152 y90 w80 h20 vRaid gUpdateGui, Raid Level
-Gui, Add, Edit, x222 y90 w70 h20 , 0
+Gui, Add, Text, x152 y90 w80 h20  gUpdateGui, Raid Level
+Gui, Add, Edit, x222 y90 w70 h20 vRaid gUpdateGui, 0
 Gui, Add, Text, x2 y160 w90 h20 , Top Counters
 Gui, Add, Edit, x82 y160 w290 h40 vCounters gUpdateGui, PokemonName - Move / Move
 Gui, Add, Text, x312 y90 w70 h20 , Top Raid CP
@@ -88,9 +88,9 @@ StringReplace, Counters2, Counters, `n, \n, 1
 StringReplace, Resist2, Resist, `n, \n, 1
 StringReplace, Weak2, Weak, `n, \n, 1
 StringReplace, Moves2, Moves, `n, \n, 1
-result .=  Counters2 . ", "
+result .=  "'" . Counters2 . "', "
 result .= "'" . Weak2 . "', "
-result .= "'" . Resist2, . "', "
+result .= "'" . Resist2 . "', "
 result .= "'" . Moves2 . "', "
 result .= TopCP . "),"
 GuiControl,, ResultBox, %result%

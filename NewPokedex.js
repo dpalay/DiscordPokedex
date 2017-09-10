@@ -257,7 +257,7 @@ let pokemon = {
     140: undefined,
     141: undefined,
     142: undefined,
-    143: undefined,
+    143: new Pokemon(143, 0x2F6C88, 'Normal', 4, 'Mewtwo - (Confusion or Psycho Cut) / Focus Blast\nMachamp - (Counter or Karate Chop) / (Dynamic Punch, Close Combat, Cross Chop)\nMoltres - Fire Spin / Overheat', 'Fight', 'Ghost (x2)', '**A/B-** - Lick / Hyper Beam\n**B/B** - Zen Headbutt / Hyper Beam\n**C/B** - Lick / Heavy Slam\n**C/A** - Zen Headbutt / Heavy Slam\n**D/D** - Lick / Earthquake\n**D/C** - Zen Headbutt / Earthquake', 1917),
     144: new Pokemon(144, 0x509fd8, "Flying / Ice", 5, "Omastar - Rock Throw / Rock Slide or Rock Blast", "Rock (x2), Electric, Fire, Steel", "Ground (x2), Bug, Grass", "**A** - Frost Breath / Blizzard\n**A** - Frost Breath / Ice Beam\n**C** - Frost Breath / Icy Wind", 1676),
     145: new Pokemon(145, 0xfff600, "Flying / Electric", 5, "Golem - Rock Throw / Stone Edge\nGolem - Rock Throw / Rock Blast", "Rock, Ice", "Bug, Grass, Flying, Ground, Steel, Fight", "**A** - Charge Beam / Thunderbolt\n**A-** - Charge Beam / Zap Cannon\n**B** - Charge Beam / Thunder", 1902),
     146: new Pokemon(146, 0xff7b00, "Flying / Fire", 5, "Golem - Rock Throw / Stone Edge\nGolem - Rock Throw / Rock Blast\nOmastar - (Rock Throw or Water Gun) / (Rock Slide, Rock Blast, or Hydro Pump)", "Electric, Rock (x2), Water", "Bug (x2), Fire, Grass (x2), Fairy, Ground, Steel, Fight", "**A** - Fire Spin / Overheat\n**B** - Fire Spin / Fire Blast\n**C** - Fire Spin / Heat Wave", 1870),
