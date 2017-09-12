@@ -120,7 +120,7 @@ let pokemon = {
     3: undefined,
     4: undefined,
     5: undefined,
-    6: undefined,
+    6: new Pokemon(6, 0xff7b00, 'Fire / Flying', 4, 'Golem - (Rock Throw, Mud Slap, Mud Shot) / (Stone Edge, Rock Blast)', 'Electric, Rock (x2), Water', 'Bug (x2), Fire, Grass (x2), Fairy, Ground, Steel, Fighting', '**A / B** -  Fire Spin / Overheat\n**A- / B-** - Air Slash / Overheat\n**A- / D** - Wing Attack\* / Overheat\n**A- / C** - Ember\* / Overheat', 1535),
     7: undefined,
     8: undefined,
     9: undefined,
