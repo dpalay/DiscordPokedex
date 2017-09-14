@@ -88,7 +88,7 @@ class Pokemon {
             .addField("Weak to:", weakTo)
             .addField("Resistant to:", resistantTo)
             .addField("Moveset Grades (**Attack/Defense**):", moveSetGrades)
-            .addField("Perfect Catchable CP: " + highestCP, "[More Info](https:\/\/pokemongo.gamepress.gg/pokemon/" + pokeID + ")")
+            .addField("Top Raid CP: " + highestCP, "[More Info](https:\/\/pokemongo.gamepress.gg/pokemon/" + pokeID + ")")
     }
 }
 
