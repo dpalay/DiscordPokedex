@@ -115,7 +115,7 @@ let types = {
 }
 
 let pokemon = {
-    1: new Pokemon(1, 0x017208, 'Grass / Poison', 0, '<Empty>', 'Fire, Flying, Ice, Psychic', 'Electric, Grass (x2), Flying, Ice, Psychic', '<Empty>', 0),
+    1: new Pokemon(1, 0x017208, 'Grass / Poison', 0, 'N/A', 'Fire, Flying, Ice, Psychic', 'Electric, Grass (x2), Flying, Ice, Psychic', 'N/A', 0),
     2: undefined,
     3: new Pokemon(3, 0x017208, 'Grass / Poison', 4, 'Mewtwo - Confusion/Psychic, Psycho Cut/Shadow Ball\nMoltres - Fire Spin/Overheat\nLugia -  Extrasensory/(Sky Attack, Future Sight)', 'Fire, Flying, Ice, Psychic', 'Grass(x2), Electric, Fairy, Fight, Water', '**A/D** | Vine Whip/Solar Beam\n**A/B** | Razor Leaf/Solar Beam\n**B/D** | Vine Whip/Petal Blizzard\n**B/C** | Vine Whip/Sludge Bomb\n**B/B** | Razor Leaf/Petal Blizzard\n**B/A** | Razor Leaf/Sludge Bomb', 1467),
     4: undefined,
