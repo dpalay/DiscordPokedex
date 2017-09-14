@@ -722,7 +722,7 @@ let pokemon = {
     605: undefined,
     606: undefined,
     607: undefined,
-    608: new Pokemon(608, 0x9212e8, 'Psychic / Flying', 100, 'Niantic - Game Updates / John Hanke', 'Niantic Labs', ':mewtwo:', 'All moves are A+', 'Impossible to catch'),
+    608: new Pokemon(608, 0x9212e8, 'Psychic / Flying', 100, 'Niantic - Game Updates / John Hanke', 'Niantic Labs', 'http://madpogotracker.info', 'All moves are A+', 'Impossible to catch'),
     609: undefined,
     610: undefined,
     611: undefined,
