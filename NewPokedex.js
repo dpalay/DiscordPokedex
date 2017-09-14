@@ -115,15 +115,15 @@ let types = {
 }
 
 let pokemon = {
-    1: new Pokemon(1, 0x017208, 'Grass / Poison', 0, '', 'Fire, Flying, Ice, Psychic', 'Electric, Grass, Fairy, Fight, Water', 'Tackle, Vine Whip', 981),
+    1: new Pokemon(1, 0x017208, 'Grass / Poison', 0, '<Empty>', 'Fire, Flying, Ice, Psychic', 'Electric, Grass, Fairy, Fight, Water', '<Empty>', '<No Raids>', 0),
     2: undefined,
     3: undefined,
     4: undefined,
     5: undefined,
-    6: new Pokemon(6, 0xff7b00, 'Fire / Flying', 4, 'Golem - (Rock Throw, Mud Slap, Mud Shot) / (Stone Edge, Rock Blast)', 'Electric, Rock (x2), Water', 'Bug (x2), Fire, Grass (x2), Fairy, Ground, Steel, Fighting', '**A / B** -  Fire Spin / Overheat\n**A- / B-** - Air Slash / Overheat\n**A- / D** - Wing Attack\* / Overheat\n**A- / C** - Ember\* / Overheat', 2686),
+    6: new Pokemon(6, 0xff7b00, 'Fire / Flying', 4, 'Golem - (Rock Throw, Mud Slap, Mud Shot) / (Stone Edge, Rock Blast)', 'Electric, Rock (x2), Water', 'Bug (x2), Fire, Grass (x2), Fairy, Ground, Steel, Fighting', '**A / B** -  Fire Spin / Overheat\n**A- / B-** - Air Slash / Overheat\n**A- / D** - Wing Attack\* / Overheat\n**A- / C** - Ember\* / Overheat', 1535),
     7: undefined,
     8: undefined,
-    9: new Pokemon(9, 0x0902e5, 'Water', 4, 'Zapdos - Charge Beam/(Thunderbolt, Zap Cannon)\nJoteon - Thunder Shock/Thunderbolt\n', 'Electric, Grass', 'Fire, Steel, Water, Ice', '**A/C** - Water Gun/Hydro Pump\n**A-/B-** - Bite/Hydro Pump\n**B/A-** - Water Gun/Ice Beam\n**B-/A** - Bite/Ice Beam\n**C/C-** - Water Gun/Flash Cannon\n**C/C-** - Bite/Flash Cannon', 2291),ndefined,
+    9: new Pokemon(9, 0x0902e5, 'Water', 4, 'Zapdos - Charge Beam/(Thunderbolt, Zap Cannon)\nJoteon - Thunder Shock/Thunderbolt\n', 'Electric, Grass', 'Fire, Steel, Water, Ice', '**A/C** - Water Gun/Hydro Pump\n**A-/B-** - Bite/Hydro Pump\n**B/A-** - Water Gun/Ice Beam\n**B-/A** - Bite/Ice Beam\n**C/C-** - Water Gun/Flash Cannon\n**C/C-** - Bite/Flash Cannon', 1309),
     10: undefined,
     11: undefined,
     12: undefined,
