@@ -80,9 +80,9 @@ class Pokemon {
             .setColor(color)
             .setThumbnail(`https:\/\/raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/${pokeID}.png`)
         if (raidLevel > 0) {
-            this.emb.setDescription("**Type:**" + types + "\nRaid Level " + raidLevel)
+            this.emb.setDescription("**Type: **" + types + "\nRaid Level " + raidLevel)
         } else {
-            this.emb.setDescription("**Type:**" + types)
+            this.emb.setDescription("**Type: **" + types)
         }
         this.emb.addField("Best Counters:", topCounters)
             .addField("Weak to:", weakTo)
@@ -226,7 +226,7 @@ let pokemon = {
     109: undefined,
     110: undefined,
     111: undefined,
-    112: new Pokemon(112, 0x7F8290, 'Ground / Rock', 4, 'Vaporeon - Water Gun / (Hydro Pump Aqua Tail)\nMeganium - Razor Leaf / (Solar Beam, Petal Blizzard)\nPoliwrath - (Bubble, Rock Smash) / (Hydro Pump, Dynamic Punch)\nMachamp - (Counter, Karate Chop) / (Dynamic Punch, Close Combat, Cross Chop)', 'Grass (x2), Ground, Steel, Fight, Ice, Water (x2)', 'Electric (x2), Fire, Normal, Rock, Flying, Poison (x2)', '**A/C** - Frost Breath / Blizzard\n**A/B** - Frost Breath / Ice Beam\n**A-/F** - Water Gun / Hydro Pump\n**B/F** - Water Gun / Blizzard\n**B/D** - Water Gun / Ice Beam\n**B/C** - Frost Breath / Hydro Pump', 1886),
+    112: new Pokemon(112, 0x7F8290, 'Ground / Rock', 4, 'Vaporeon - Water Gun / (Hydro Pump, Aqua Tail)\nMeganium - Razor Leaf / (Solar Beam, Petal Blizzard)\nPoliwrath - (Bubble, Rock Smash) / (Hydro Pump, Dynamic Punch)\nMachamp - (Counter, Karate Chop) / (Dynamic Punch, Close Combat, Cross Chop)', 'Grass (x2), Ground, Steel, Fight, Ice, Water (x2)', 'Electric (x2), Fire, Normal, Rock, Flying, Poison (x2)', '**A/C** - Frost Breath / Blizzard\n**A/B** - Frost Breath / Ice Beam\n**A-/F** - Water Gun / Hydro Pump\n**B/F** - Water Gun / Blizzard\n**B/D** - Water Gun / Ice Beam\n**B/C** - Frost Breath / Hydro Pump', 1886),
     113: undefined,
     114: undefined,
     115: undefined,
@@ -257,14 +257,14 @@ let pokemon = {
     140: undefined,
     141: undefined,
     142: undefined,
-    143: new Pokemon(143, 0x2F6C88, 'Normal', 4, 'Mewtwo - (Confusion or Psycho Cut) / Focus Blast\nMachamp - (Counter or Karate Chop) / (Dynamic Punch, Close Combat, Cross Chop)\nMoltres - Fire Spin / Overheat', 'Fight', 'Ghost (x2)', '**A/B-** - Lick / Hyper Beam\n**B/B** - Zen Headbutt / Hyper Beam\n**C/B** - Lick / Heavy Slam\n**C/A** - Zen Headbutt / Heavy Slam\n**D/D** - Lick / Earthquake\n**D/C** - Zen Headbutt / Earthquake', 1917),
-    144: new Pokemon(144, 0x509fd8, "Flying / Ice", 5, "Omastar - Rock Throw / Rock Slide or Rock Blast", "Rock (x2), Electric, Fire, Steel", "Ground (x2), Bug, Grass", "**A** - Frost Breath / Blizzard\n**A** - Frost Breath / Ice Beam\n**C** - Frost Breath / Icy Wind", 1676),
-    145: new Pokemon(145, 0xfff600, "Flying / Electric", 5, "Golem - Rock Throw / Stone Edge\nGolem - Rock Throw / Rock Blast", "Rock, Ice", "Bug, Grass, Flying, Ground, Steel, Fight", "**A** - Charge Beam / Thunderbolt\n**A-** - Charge Beam / Zap Cannon\n**B** - Charge Beam / Thunder", 1902),
-    146: new Pokemon(146, 0xff7b00, "Flying / Fire", 5, "Golem - Rock Throw / Stone Edge\nGolem - Rock Throw / Rock Blast\nOmastar - (Rock Throw or Water Gun) / (Rock Slide, Rock Blast, or Hydro Pump)", "Electric, Rock (x2), Water", "Bug (x2), Fire, Grass (x2), Fairy, Ground, Steel, Fight", "**A** - Fire Spin / Overheat\n**B** - Fire Spin / Fire Blast\n**C** - Fire Spin / Heat Wave", 1870),
+    143: new Pokemon(143, 0x2F6C88, 'Normal', 4, 'Mewtwo - (Confusion, Psycho Cut) / Focus Blast\nMachamp - (Counter, Karate Chop) / (Dynamic Punch, Close Combat, Cross Chop)\nMoltres - Fire Spin / Overheat', 'Fight', 'Ghost (x2)', '**A/B-** - Lick / Hyper Beam\n**B/B** - Zen Headbutt / Hyper Beam\n**C/B** - Lick / Heavy Slam\n**C/A** - Zen Headbutt / Heavy Slam\n**D/D** - Lick / Earthquake\n**D/C** - Zen Headbutt / Earthquake', 1917),
+    144: new Pokemon(144, 0x509fd8, "Flying / Ice", 5, "Omastar - Rock Throw / (Rock Slide, Rock Blast)", "Rock (x2), Electric, Fire, Steel", "Ground (x2), Bug, Grass", "**A** - Frost Breath / Blizzard\n**A** - Frost Breath / Ice Beam\n**C** - Frost Breath / Icy Wind", 1676),
+    145: new Pokemon(145, 0xfff600, "Flying / Electric", 5, "Golem - Rock Throw / (Stone Edge, Rock Blast)", "Rock, Ice", "Bug, Grass, Flying, Ground, Steel, Fight", "**A** - Charge Beam / Thunderbolt\n**A-** - Charge Beam / Zap Cannon\n**B** - Charge Beam / Thunder", 1902),
+    146: new Pokemon(146, 0xff7b00, "Flying / Fire", 5, "Golem - Rock Throw / (Stone Edge, Rock Blast\nOmastar - (Rock Throw, Water Gun) / (Rock Slide, Rock Blast, or Hydro Pump)", "Electric, Rock (x2), Water", "Bug (x2), Fire, Grass (x2), Fairy, Ground, Steel, Fight", "**A** - Fire Spin / Overheat\n**B** - Fire Spin / Fire Blast\n**C** - Fire Spin / Heat Wave", 1870),
     147: undefined,
     148: undefined,
     149: undefined,
-    150: new Pokemon(150, 0xDAD2E0, 'Psychic', 5, "Mewtwo - (Confusion or Psycho Cut) / Shadow Ball\nTyranitar - Bite / (Crunch or Stone Edge)\nLugia - (Extrasensory or Dragon Tail) / Sky Attack", "Bug, Dark, Ghost", "Fight, Psychic", "**A** - Confusion / Shadow Ball\n**A** - Psycho Cut / Shadow Ball\n**B** - Confusion / Focus Blast\n**B** - Psycho Cut / Focus Blast\n**C** - Psycho Cut / Psychic\n**C** - Confusion / Psychic\n**F** - Psycho Cut / Hyper Beam\n**F** - Confusion / Hyper Beam", 2275),
+    150: new Pokemon(150, 0xDAD2E0, 'Psychic', 5, "Mewtwo - (Confusion, Psycho Cut) / Shadow Ball\nTyranitar - Bite / (Crunch, Stone Edge)\nLugia - (Extrasensory, Dragon Tail) / Sky Attack", "Bug, Dark, Ghost", "Fight, Psychic", "**A** - Confusion / Shadow Ball\n**A** - Psycho Cut / Shadow Ball\n**B** - Confusion / Focus Blast\n**B** - Psycho Cut / Focus Blast\n**C** - Psycho Cut / Psychic\n**C** - Confusion / Psychic\n**F** - Psycho Cut / Hyper Beam\n**F** - Confusion / Hyper Beam", 2275),
     151: undefined,
     152: undefined,
     153: undefined,
@@ -362,8 +362,8 @@ let pokemon = {
     245: undefined,
     246: undefined,
     247: undefined,
-    248: new Pokemon(248, 0xa4b68e, "Dark / Rock", 4, "Machamp - (Counter or Karate Chop) / (Dynamic Punch or Close Combat or Cross Chop)\nPoliwrath - (Rock Smash or Bubble) / Dynamic Punch", "Bug, Grass, Fairy, Ground, Steel, Fight (x2), Water", "Fire, Normal, Dark, Flying, Poison, Ghost, Psychic (x2)", "**A/C** - Bite / Crunch\n**A/C** - Bite / Stone Edge\n**C/D** - Bite / Fire Blast\n**C/A** - Iron Tail / Crunch\n**C/A** - Iron Tail / Stone Edge\n**D/B** - Iron Tail / Fire Blast", 2097),
-    249: new Pokemon(249, 0xf1EEF7, "Flying / Psychic", 5, "Mewtwo - (Confusion or Psycho Cut) / Shadow Ball\nTyranitar - Bite / (Stone Edge or Crunch)\nZapdos - Charge Beam / (Thunderbolt / Thunder)", "Electric, Rock, Dark, Ghost, Ice", "Grass, Ground (x2), Fight (x2), Psychic", "**A** - Extrasensory / Sky Attack\n**A** - Extrasensory / Future Sight\n**B** - Dragon Tail / Sky Attack\n**B** - Dragon Tail / Future Sight\n**C** - Extrasensory / Hydro Pump\n**C-** - Dragon Tail / Hydro Pump", 2056),
+    248: new Pokemon(248, 0xa4b68e, "Dark / Rock", 4, "Machamp - (Counter, Karate Chop) / (Dynamic Punch, Close Combat, Cross Chop)\nPoliwrath - (Rock Smash, Bubble) / Dynamic Punch", "Bug, Grass, Fairy, Ground, Steel, Fight (x2), Water", "Fire, Normal, Dark, Flying, Poison, Ghost, Psychic (x2)", "**A/C** - Bite / Crunch\n**A/C** - Bite / Stone Edge\n**C/D** - Bite / Fire Blast\n**C/A** - Iron Tail / Crunch\n**C/A** - Iron Tail / Stone Edge\n**D/B** - Iron Tail / Fire Blast", 2097),
+    249: new Pokemon(249, 0xf1EEF7, "Flying / Psychic", 5, "Mewtwo - (Confusion, Psycho Cut) / Shadow Ball\nTyranitar - Bite / (Stone Edge, Crunch)\nZapdos - Charge Beam / (Thunderbolt, Thunder)", "Electric, Rock, Dark, Ghost, Ice", "Grass, Ground (x2), Fight (x2), Psychic", "**A** - Extrasensory / Sky Attack\n**A** - Extrasensory / Future Sight\n**B** - Dragon Tail / Sky Attack\n**B** - Dragon Tail / Future Sight\n**C** - Extrasensory / Hydro Pump\n**C-** - Dragon Tail / Hydro Pump", 2056),
     250: undefined,
     251: undefined,
     252: undefined,
