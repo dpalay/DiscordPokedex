@@ -115,7 +115,7 @@ let types = {
 }
 
 let pokemon = {
-    1: new Pokemon(1, 0x017208, 'Grass / Poison', 0, '', 'Fire, Flying, Ice, Psychic', 'Electric, Grass, Fairy, Fight, Water', 'Tackle, Vine Whip'),
+    1: new Pokemon(1, 0x017208, 'Grass / Poison', 0, '<Empty>', 'Fire, Flying, Ice, Psychic', 'Electric, Grass, Fairy, Fight, Water', '<Empty>', '<No Raids>, 0),
     2: undefined,
     3: undefined,
     4: undefined,
