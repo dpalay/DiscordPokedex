@@ -530,7 +530,7 @@ let pokemon = {
     413: undefined,
     414: undefined,
     415: undefined,
-    416: new Pokemon(416, 0xa50000, 'Fight/Steel', 10, 'Psst... NONE', 'Crying Daughters', 'Begging/Whining Kids', '**A/A** | Sonic Yell/Embarrassing Dance Moves\n**A/A** | The Arnold/Whooping Butt\n**A/A** | Close Combat/Submission\n**A/A** | Morning Breath/Fake Sleeping', Over 9000),
+    416: new Pokemon(416, 0xa50000, 'Fight/Steel', 10, 'Psst... NONE', 'Crying Daughters', 'Begging/Whining Kids', '**A/A** | Sonic Yell/Embarrassing Dance Moves\n**A/A** | The Arnold/Whooping Butt\n**A/A** | Close Combat/Submission\n**A/A** | Morning Breath/Fake Sleeping', 'Over 9000'),
     417: undefined,
     418: undefined,
     419: undefined,
