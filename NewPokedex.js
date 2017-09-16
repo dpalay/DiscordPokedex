@@ -923,8 +923,12 @@ let pokemon = {
 
 
 client.on('message', message => {
+    // Help
+    if (message.content.toLowerCase() === '?help') {
+        message.author.createDM().then((dm) => { dm.send("Hi, thanks for using the automated Pokedex bot!\n\nI can provide quick information on different Pokemon types as well as specific Pokemon.$
+    }
     //only do something if it starts with a ? and doesn't come from self.
-    if (message.content.startsWith('?') && message.author.id != client.user.id) {
+    else if (message.content.startsWith('?') && message.author.id != client.user.id) {
         console.log("Pokedex from " + message.author.username + ":\t" + message.content);
 
         //Is it a type?
