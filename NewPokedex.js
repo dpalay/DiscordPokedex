@@ -925,7 +925,7 @@ let pokemon = {
 client.on('message', message => {
     // Help
     if (message.content.toLowerCase() === '?help') {
-        message.author.createDM().then((dm) => { dm.send("Hi, thanks for using the automated Pokedex bot!\n\nI can provide quick information on different Pokemon types as well as specific Pokemon.\n\nFor information on Pokemon types, use commands `?type`, ie. `?water will return important information on water type Pokemon.\n\nFor information on specific Pokemon, use commands `?pokemon` or `?pokemon id`, ie. `?articuno` and/or `?144` will both return important information on Articuno.") }).catch(console.error)
+        message.author.createDM().then((dm) => { dm.send("Hi, thanks for using the automated Pokedex bot!\n\nI can provide quick information on different Pokemon types as well as specific Pokemon.\n\nFor information on Pokemon types, use commands `?type`, ie. `?water` will return important information on water type Pokemon.\n\nFor information on specific Pokemon, use commands `?pokemon` or `?pokemon id`, ie. `?articuno` and/or `?144` will both return important information on Articuno.") }).catch(console.error)
     }
     //only do something if it starts with a ? and doesn't come from self.
     else if (message.content.startsWith('?') && message.author.id != client.user.id) {
