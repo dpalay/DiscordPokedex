@@ -51,7 +51,7 @@ function interpretPoke(poke) {
 
 client.on('ready', () => {
     console.log('I am ready!');
-    client.user.setGame('?help for usage');
+    client.user.setGame('?help | Usage info');
 });
 
 client.on('message', message => {
